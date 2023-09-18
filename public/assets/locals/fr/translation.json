@@ -1,0 +1,27 @@
+{
+
+    "about":"À propos",
+    "sub-head":"Une bibliothèque JavaScript pour créer des interfaces utilisateur",
+    "Declarative-head":"Déclaratif",
+    "Declarative-content":"React facilite la création d'interfaces utilisateur interactives. Concevez des vues simples pour chaque état de votre application, et React mettra à jour et restituera efficacement les bons composants lorsque vos données changent.",
+    "Declarative-note":"Les vues déclaratives rendent votre code plus prévisible et plus facile à déboguer.",
+    "Component-head":"Basé sur les composants",
+    "Component-content":"Créez des composants encapsulés qui gèrent leur propre état, puis composez-les pour créer des interfaces utilisateur complexes.",
+    "Component-footer" : "Étant donné que la logique des composants est écrite en JavaScript au lieu de modèles, vous pouvez facilement transmettre des données riches via votre application et conserver l'état en dehors du DOM.",
+    "Learn-head":"Apprenez une fois, écrivez n'importe où",
+    "Learn-content":"Nous ne faisons aucune hypothèse sur le reste de votre pile technologique, vous pouvez donc développer de nouvelles fonctionnalités dans React sans réécrire le code existant.",
+    "Learn-footer":"React peut également effectuer le rendu sur le serveur à l'aide de Node et alimenter des applications mobiles à l'aide de React Native.",
+    "Why-react-head" :"Pourquoi utiliser React.JS ?",
+    "Why-react-content" : "Parce que ReactJs est l'une des bibliothèques JavaScript frontales les plus utilisées pour créer des applications Web. Environ 8 000 entreprises dans le monde ont choisi React plutôt que d'autres bibliothèques et frameworks populaires pour créer des interfaces utilisateur riches. React est un package JavaScript développé par Facebook qui a été utilisé, entre autres, pour créer Instagram. C'est comme une panacée pour les développeurs de créer rapidement des interfaces utilisateur pour les sites Web et les applications. Le DOM virtuel est la notion centrale de ReactJs.",
+    "Why-react-2content":"React est une technologie nouvelle par rapport aux options disponibles précédentes. La bibliothèque JavaScript a été créée en 2011 par Jordan Walke, un ingénieur logiciel de Facebook à l'époque. Des frameworks comme XHP, un simple framework de composants HTML pour PHP, ont influencé React. React a été utilisé au début dans le fil d’actualité de Facebook en 2011. Il a ensuite été récupéré par Instagram et utilisé dans leur système. React a évolué au fil du temps et en mai 2013, lors de la JSConf US, Facebook a choisi de le rendre open source.",
+    "About-head":"À propos de notre documentation React.js",
+    "About-summary":"Bienvenue dans la documentation officielle de notre projet React.js ! Nous sommes ravis de vous accueillir ici et de vous aider à naviguer dans les tenants et les aboutissants de React.js.",
+    "About-mission-head":"Notre mission",
+    "About-mission-content":"Notre mission est de fournir aux développeurs une documentation complète et facile à comprendre pour React.js. Nous pensons qu'un framework bien documenté favorise une communauté de développeurs florissante, leur permettant de créer des applications Web étonnantes.",
+    "About-contributors-head":"Contributrice",
+    "About-contributors-content":"Notre documentation est un effort collaboratif, rendu possible grâce au travail acharné et au dévouement de notre communauté de contributeurs. Nous apprécions chaque personne qui a contribué à ce projet, que ce soit par le biais de contributions de code, de rapports de bogues, de traductions ou simplement en faisant connaître React.js.",
+    "About-involved-head":"Être impliqué",
+    "About-involved-content":"Nous apprécions les contributions de la communauté pour aider à améliorer cette documentation. Si vous souhaitez contribuer, veuillez lire nos directives de contribution pour commencer. Si vous avez des questions, avez besoin d'aide ou souhaitez signaler un bug, n'hésitez pas à nous contacter. Merci de faire partie de notre communauté React.js !",
+    "About-FAQ-head":"Foire aux questions (FAQ)",
+    "About-FAQ-content":"Compilez une liste de questions fréquemment posées liées à React.js. Répondez aux requêtes courantes que les utilisateurs peuvent se poser, en leur fournissant des réponses claires et concises pour les aider à naviguer plus efficacement dans le cadre."
+}
