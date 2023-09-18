@@ -10,16 +10,11 @@ function App() {
   const { t } = useTranslation();
   return (
     <div className="App bg-black">
-      <Navbar/>
+      <Navbar />
       <Routes>
-        <Route path='/' element={<HomePage/>}/>
-        <Route path='/about' element={<AboutPage/>}/>
-        {/* <h1 className='underline text-red-600'>{t('Welcome_to_React')}</h1> */}
+        <Route path='/' element={<HomePage />} />
+        <Route path='/about' element={<AboutPage />} />
       </Routes>
-      
-      
-       
-
     </div>
   );
 }

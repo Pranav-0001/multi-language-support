@@ -9,8 +9,8 @@ import i18next from 'i18next';
 const Navbar = () => {
     const { t } = useTranslation();
     const navigate=useNavigate()
-    const [currentLan,setCurrentLan]=useState(document.cookie.split(';')[1].split('=')[1])
-    let languages=[{code:'en',language:'English'},{code:'hi',language:'हिंदी'},{code:'es',language:"Español"},{code:'fr',language:"Francés"}]
+    const [currentLan,setCurrentLan]=useState(document.cookie.split(';')[1].split('=')[1]) //assigning the language code to state from cookie by split the string
+    let languages=[{code:'en',language:'English'},{code:'hi',language:'हिंदी'},{code:'es',language:"Español"},{code:'fr',language:"Francés"}] //languages with their codes.
   return (
     <nav className='w-full h-14 bg-[#1a0033] fixed z-10'>
       <div className='flex justify-between h-full items-center px-3'>
@@ -18,12 +18,12 @@ const Navbar = () => {
         <div className='flex gap-6 justify-between'>
             <h3 onClick={()=>navigate('/about')} className='text-xl text-white cursor-pointer'>{t('about')}</h3>
             <div className='flex items-center gap-1'>
-            <FontAwesomeIcon className='text-white text-xl' icon={faEarthAmerica} />
+            <FontAwesomeIcon className='text-white text-xl' icon={faEarthAmerica} /> 
             
-              <select onChange={(e)=>{i18next.changeLanguage(e.target.value);setCurrentLan(e.target.value)}} name="" id="" value={currentLan} className='bg-transparent text-white outline-none' >
+              <select onChange={(e)=>{i18next.changeLanguage(e.target.value);setCurrentLan(e.target.value)}} name="" id="" value={currentLan} className='bg-transparent text-white outline-none' > {/* Changing the language and the state to display the current selected language */}
 
-              {languages.map((lan)=><option  value={lan.code} className='text-black'>{lan.language}</option>)}
-            </select>
+              {languages.map((lan)=><option  value={lan.code} className='text-black'>{lan.language}</option>)} 
+            </select> 
             </div>
             
         </div>

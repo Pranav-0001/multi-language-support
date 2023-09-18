@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next';
 
 const Home = () => {
-    const { t } = useTranslation();
+    const { t } = useTranslation(); // t indicates the translation
     return (
         <div className='min-h-[92.2vh] w-full pt-10   bg-black '>
             <div className='flex items-center md:gap-5'>
