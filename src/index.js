@@ -18,8 +18,8 @@ i18n
 
     fallbackLng: "en", //to handle the error inputs and default language selection
     detection:{
-      order: [ 'cookie','htmlTag', 'localStorage', 'path', 'subdomain'],
-      caches:['cookie'] //caches the language in the cookie
+      order: [ 'localStorage','cookie','htmlTag',  'path', 'subdomain'],
+      caches:['localStorage','cookie'] //caches the language in the cookie
     },
     backend:{
       loadPath: '/assets/locals/{{lng}}/translation.json', //loading content from json file stored in assets
