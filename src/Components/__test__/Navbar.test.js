@@ -15,4 +15,4 @@ test("height should be 3.5rem", () => {
     );
     const navbar = screen.getByTestId('navbar');
     expect(navbar).toHaveStyle(`height: 3.5rem`);
-}) 
+})  
